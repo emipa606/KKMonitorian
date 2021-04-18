@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="MonitorianFactionBase">
+    <colorSpectrum>
+      <li>(0.4, 0.837, 0.247)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <FactionDef Parent="MonitorianFactionBase">
+    <defName>MonitorianPlayerTribe</defName>
+    <label>Monitorian Tribe</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>PlayerLizardian</basicMemberKind>
+    <pawnsPlural>Monitorians</pawnsPlural>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <geneticVariance>1</geneticVariance>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>MonitorianHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Tribal</li>
+    </recipePrerequisiteTags>
+    <colorSpectrum>
+      <li>(0.4, 0.837, 0.247)</li>
+    </colorSpectrum>
+  </FactionDef>
+</Defs>

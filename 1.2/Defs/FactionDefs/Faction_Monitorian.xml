@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="HumanFactionBase">
+    <defName>MonitorianFaction</defName>
+    <label>Monitorian Tribe</label>
+    <description>A Tribe of large lizard people.</description>
+    <basicMemberKind>LizardianMelee</basicMemberKind>
+    <pawnsPlural>Monitorians</pawnsPlural>
+    <settlementGenerationWeight>0.5</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>false</canMakeRandomly>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(40, 3)</li>
+        <li>(400, 1)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <factionIconPath>World/ReptillioidVillage</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+    <colorSpectrum>
+      <li>(0.35,0.8,0.25)</li>
+      <li>(0.33,0.76,0.19)</li>
+      <li>(0.2,0.9,0.1)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-15</min>
+      <max>15</max>
+    </startingGoodwill>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <hairTags>
+      <li>MonitorianHair</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>5</min>
+      <max>5</max>
+    </naturalColonyGoodwill>
+    <caravanTraderKinds>
+      <li>Caravan_Neolithic_BulkGoods</li>
+      <li>Caravan_Neolithic_WarMerchant</li>
+      <li>Caravan_Neolithic_Slaver</li>
+      <li>Caravan_Neolithic_ShamanMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Neolithic_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Neolithic_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-20</min>
+      <max>55</max>
+    </allowedArrivalTemperatureRange>
+    <raidLootMaker>TribeRaidLootMaker</raidLootMaker>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(800, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <MonitorianMelee>40</MonitorianMelee>
+          <MonitorianRanged>50</MonitorianRanged>
+          <MonitorianChief>60</MonitorianChief>
+          <LizardianMelee>80</LizardianMelee>
+          <LizardianRanged>100</LizardianRanged>
+          <LizardianChief>60</LizardianChief>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <LizardianTrader>1</LizardianTrader>
+          <MonitorianTrader>1</MonitorianTrader>
+        </traders>
+        <carriers>
+          <Dromedary>2</Dromedary>
+        </carriers>
+        <guards>
+          <MonitorianMelee>40</MonitorianMelee>
+          <MonitorianRanged>50</MonitorianRanged>
+          <LizardianMelee>80</LizardianMelee>
+          <LizardianRanged>100</LizardianRanged>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <MonitorianMelee>40</MonitorianMelee>
+          <MonitorianRanged>50</MonitorianRanged>
+          <MonitorianChief>60</MonitorianChief>
+          <LizardianMelee>80</LizardianMelee>
+          <LizardianRanged>100</LizardianRanged>
+          <LizardianChief>60</LizardianChief>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+</Defs>
