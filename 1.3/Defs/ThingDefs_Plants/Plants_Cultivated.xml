@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantBase">
+    <defName>PlantPoisonleaf</defName>
+    <label>Poisonleaf plant</label>
+    <description>A poisonous plant closly related to the psycoid plant cultivated by tribal societies in wet climates for use in weaponry and Rituals.</description>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Nutrition>0.0</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Mature/PoisonleafPlant</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>15</pathCost>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+    </ingestible>
+    <plant>
+      <fertilityMin>1</fertilityMin>
+      <fertilitySensitivity>1</fertilitySensitivity>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>PoisonleafLeaves</harvestedThingDef>
+      <harvestYield>16</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6.2</growDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+    </plant>
+  </ThingDef>
+</Defs>

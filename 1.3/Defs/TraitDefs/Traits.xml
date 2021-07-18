@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraitDef>
+    <defName>Shadow</defName>
+    <commonality>0.17</commonality>
+    <degreeDatas>
+      <li>
+        <label>shadow</label>
+        <description>NAME Moves in the shadows.</description>
+        <marketValueFactorOffset>-0.1</marketValueFactorOffset>
+        <statOffsets>
+          <MeleeDodgeChance>15</MeleeDodgeChance>
+          <MoveSpeed>0.40</MoveSpeed>
+          <ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>Brawler</li>
+    </conflictingTraits>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </TraitDef>
+</Defs>

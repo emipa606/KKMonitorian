@@ -15,7 +15,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1306400285
 A mod that adds reptillioid races and a Trible Faction
 
 This is the First part of a reptillioid faction i want to create.
-i'm still long ways away from anywhere and this mod is the result of the selfteaching process
+i&apos;m still long ways away from anywhere and this mod is the result of the selfteaching process
 
 
 it adds
@@ -28,7 +28,7 @@ cons:
 -Bad ranged combat
 -Slower workspeed and research
 
-Cause of their large size they don't see much use in most weapons
+Cause of their large size they don&apos;t see much use in most weapons
 Added Weapons:
 (Race exclusive, Can be made at Crafting spot)
 -Thwroable Rock
@@ -39,12 +39,12 @@ Added Weapons:
 The Lizzardian Race
 pros:
 -very fast and nimble
--don't mind darkness
+-don&apos;t mind darkness
 -good at crafting and planting
 cuns:
 -small and weak
 
-They can't use large weapons so they are restricted to weapons like knifes and shortbows
+They can&apos;t use large weapons so they are restricted to weapons like knifes and shortbows
 Added Weapons
 (Not exclusive)
 -poison blowgun
