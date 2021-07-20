@@ -122,12 +122,22 @@
           <head>Things/Pawn/Humanlike/Tortoid/Head/</head>
         </li>
       </graphicPaths>
-      <hairSettings>
-        <hasHair>true</hasHair>
-        <hairTags>
-          <li>MonitorianHair</li>
-        </hairTags>
-      </hairSettings>
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <styleTags>
+              <li>MonitorianHair</li>
+            </styleTags>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
       <thoughtSettings>
         <cannotReceiveThoughts>
           <li>SleptOnGround</li>
