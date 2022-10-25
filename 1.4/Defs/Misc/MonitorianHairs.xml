@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>MonitorianHawk</defName>
+    <label>MonitorianHawk</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Horn</texPath>
+    <hairTags>
+      <li>MonitorianHair</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>MonitorianBald</defName>
+    <label>MonitorianBald</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/ReptileBald</texPath>
+    <hairTags>
+      <li>MonitorianHair</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>MonitorianSpines</defName>
+    <label>MonitorianSpines</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Spines</texPath>
+    <hairTags>
+      <li>MonitorianHair</li>
+    </hairTags>
+  </HairDef>
+</Defs>

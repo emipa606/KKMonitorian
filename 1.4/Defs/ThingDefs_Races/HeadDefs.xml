@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Monitorian</defName>
+    <graphicPath>Things/Pawn/Humanlike/Monitorian/Head/Average_Normal</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Tortoid</defName>
+    <graphicPath>Things/Pawn/Humanlike/Tortoid/Head/Average_Normal</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+</Defs>

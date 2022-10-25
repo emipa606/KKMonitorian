@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>MeleeWeapon_Hammer</defName>
+    <label>War Club</label>
+    <description>A massive club wielded by the biggest Reptillioids.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Melee/Hammer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <weaponTags>
+      <li>NonNeolithicOnlyMelee</li>
+      <li>NonNeolithicOnlySimpleMelee</li>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <costList>
+      <WoodLog>70</WoodLog>
+    </costList>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>20</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.15</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

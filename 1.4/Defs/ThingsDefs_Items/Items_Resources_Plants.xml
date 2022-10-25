@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=============== Plants ====================-->
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>PoisonleafLeaves</defName>
+    <label>poisonleaf leaves</label>
+    <description>Raw cut leaves of a poisen leaf plant.</description>
+    <graphicData>
+      <texPath>Things/Item/Resources/PlantFoodRaw/PoisonleafLeaves</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.7</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+    </ingestible>
+  </ThingDef>
+</Defs>
